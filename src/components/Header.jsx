@@ -17,8 +17,8 @@ const Header = () => {
         <div className='max-w-[1240px] mx-auto flex justify-between items-center'>
             <div className='text-[#FE9E0D] text-[2rem] tracking-widest font-bold'>FOODIE</div>
             {toggle ? 
-                <IoClose onClick={() => setToggle(!toggle)} className='md:hidden block text-white cursor-pointer text-3xl' />
-                : <RiMenu3Line onClick={() => setToggle(!toggle)} className='md:hidden block text-white cursor-pointer text-2xl' />
+                <IoClose onClick={() => setToggle(!toggle)} className='md:hidden block text-black cursor-pointer text-3xl' />
+                : <RiMenu3Line onClick={() => setToggle(!toggle)} className='md:hidden block text-black cursor-pointer text-2xl' />
             }
             <ul className='hidden md:flex items-center gap-16 font-semibold'>
                 {lists.map((list, index) => (
